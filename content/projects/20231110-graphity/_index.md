@@ -8,7 +8,22 @@ date: 2023-11-03
 draft: false
 ---
 
-<iframe src="https://graphity.tech" style="width:100%; height: 500px;"></iframe>
+## Demo
+
+<div style="position: relative;
+        width: 100%;
+        padding-top: 56.25%; /* 16:9 aspect ratio */
+        height: 0;">
+    <iframe src="https://graphity.tech" frameborder="0" allowfullscreen style="position: absolute;
+        top: 0;
+        left: 0;
+        width: 200%; /* Double the size to miniaturize */
+        height: 200%; /* Double the size to miniaturize */
+        transform: scale(0.5); /* Scale down to half size */
+        transform-origin: 0 0; /* Scale from top left */
+        border: 0;" allowfullscreen></iframe>
+</div>
+
 
 
 ## Inspiration
