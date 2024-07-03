@@ -1,13 +1,14 @@
 colorScheme = "forest"
 defaultAppearance = "dark"
-autoSwitchAppearance = true
+autoSwitchAppearance = false
 enableSearch = true
 enableCodeCopy = false
 disableImageOptimization = false
 disableTextInHeader = false
+mainSections = [ "projects" ]
 
 [header]
-layout = "basic"
+layout = "fixed"
 
 [footer]
 showMenu = true
@@ -17,62 +18,66 @@ showAppearanceSwitcher = true
 showScrollToTop = true
 
 [homepage]
-layout = "profile"
-showRecent = false
+layout = "background"
+showRecent = true
 showRecentItems = 5
 showMoreLink = false
-showMoreLinkDest = "/posts"
-cardView = false
+showMoreLinkDest = "/projects"
+cardView = true
 cardViewScreenWidth = false
 layoutBackgroundBlur = false
+homepageImage = "homepage_background.jpg"
 
 [article]
 showDate = true
 showViews = false
 showLikes = false
-showDateOnlyInArticle = false
+showDateOnlyInArticle = true
 showDateUpdated = false
-showAuthor = true
+showAuthor = false
 showHero = false
+heroStyle = "big"
 layoutBackgroundBlur = true
 layoutBackgroundHeaderSpace = true
-showBreadcrumbs = false
+showBreadcrumbs = true
 showDraftLabel = true
-showEdit = false
+showEdit = true
 editAppendPath = true
-seriesOpened = false
+seriesOpened = true
 showHeadingAnchors = true
 showPagination = true
 invertPagination = false
 showReadingTime = true
-showTableOfContents = false
-showTaxonomies = false
-showAuthorsBadges = false
+showTableOfContents = true
+showRelatedContent = false
+relatedContentLimit = 6
+showTaxonomies = true
+showAuthorsBadges = true
 showWordCount = true
-showZenMode = false
+showSummary = true
+showZenMode = true
 
 [list]
 showHero = false
+heroStyle = "basic"
 layoutBackgroundBlur = true
 layoutBackgroundHeaderSpace = true
 showBreadcrumbs = false
-showSummary = false
 showViews = false
 showLikes = false
-showTableOfContents = false
-showCards = false
-orderByWeight = false
-groupByYear = true
-cardView = false
+showSummary = false
+showTableOfContents = true
+showCards = true
+groupByYear = false
+cardView = true
 cardViewScreenWidth = false
-constrainItemsWidth = false
 
 [sitemap]
 excludedKinds = [ "taxonomy", "term" ]
 
 [taxonomy]
 showTermCount = true
-showHero = false
+showHero = ""
 showBreadcrumbs = false
 showViews = false
 showLikes = false
@@ -80,7 +85,7 @@ showTableOfContents = false
 cardView = false
 
 [term]
-showHero = false
+showHero = true
 showBreadcrumbs = false
 showViews = false
 showLikes = false

@@ -1,7 +1,7 @@
 languageCode = "en"
 languageName = "English"
 weight = 1
-title = "Ryan Mechery Portfolio"
+title = "Ryan Mechery"
 
 [params]
 displayName = "EN"
@@ -12,3 +12,6 @@ dateFormat = "2 January 2006"
 [author]
 name = "Ryan Mechery"
 headline = "CS Student @ UMA"
+links = [ { github = "https://github.com/rmechery" }, { instagram = "https://www.instagram.com/ryan_mechery" }, { linkedin = "https://www.linkedin.com/in/ryan-mechery/" } ]
+image = "profile_pic.png"
+bio = ""

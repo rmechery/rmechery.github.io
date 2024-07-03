@@ -1,0 +1,7 @@
+{{ $alias := .Get "alias" }}
+{{ $colored := .Get "colored" }}
+{{ if eq $colored "true" }}
+<i class="devicon-{{ $alias }} colored"></i>
+{{ else }}
+<i class="devicon-{{ $alias }}"></i>
+{{ end }}

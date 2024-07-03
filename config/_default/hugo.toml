@@ -2,7 +2,8 @@
 # Refer to the theme docs for more details about each of these parameters.
 # https://blowfish.page/docs/getting-started/
 
-theme = "blowfish" # UNCOMMENT THIS LINE
+theme = ["hugo-embed-pdf-shortcode", "blowfish"] # UNCOMMENT THIS LINE
+enableInlineShortcodes = true
 # baseURL = "https://your_domain.com/"
 defaultContentLanguage = "en"
 

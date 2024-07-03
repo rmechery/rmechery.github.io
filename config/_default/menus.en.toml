@@ -5,13 +5,25 @@ none = "none"
 name = "About"
 pageRef = "about"
 identifier = "l0Gyh3HlYM"
-weight = 9999
+weight = 10
 
 [[main]]
 name = "Projects"
 pageRef = "projects"
 identifier = "7IJJYZ4q0u"
-weight = 9999
+weight = 20
+
+[[main]]
+name = "Hobbies"
+pageRef = "hobby"
+identifier = "cG8JqhbzPm"
+weight = 30
+
+[[main]]
+pre = "github"
+url = "https://github.com/rmechery"
+identifier = "eNmNc9dw4m"
+weight = 40
 
 [[footer]]
 none = "none"
